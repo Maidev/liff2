@@ -141,7 +141,7 @@ function registerButtonHandlers() {
           .sendMessages([
             {
               type: "text",
-              text: "You've successfully sent a message! Hooray!",
+              text: "คำถามคือ?",
             },
           ])
           .then(function () {
